@@ -1,58 +1,40 @@
 # News Summary starter project
 
-Change
-This is the starter repo for the News Summary project in Further JavaScript week 7.  See the Makers course repo for the [full project description](https://github.com/makersacademy/course/blob/master/further_javascript/news_summary_project.md).
+##User Stories
 
-## Setting up
 
-### Clone this repo to your computer
+```
+As a busy politician
+I can see all of today's headlines in one place
+So I know what the big stories of the day are
+```
 
-    $ git clone https://github.com/makersacademy/news-summary.git
+```
+As a busy politician
+I can read a summary of a news article
+So I can get a few more details about an important story
+```
 
-### Install the Java Development Kit (JDK)
+```
+As a busy politician
+I can read a full news article
+So that I can get an in depth understanding of a very important story
+```
 
-[Install the JDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+```
+As a busy politician
+I can see a picture to illustrate each news article when I browse headlines
+So that I have something nice to look at
+```
 
-Check it's installed by typing
+```
+As a busy politician
+I can read the site comfortably on my phone
+Just in case my laptop breaks
+```
 
-    $ java -version
-
-You should see a version number.
-
-### Install the other dependencies
-
-    $ cd path/to/news-summariser/
-    $ npm install
-    $ npm run install-bower-dependencies
-    $ npm run install-selenium-dependencies
-
-## Run your feature tests
-
-In a terminal, run your app.
-
-    $ cd path/to/news-summariser/
-    $ npm run start-app
-
-In a *second* terminal (with your app still running from the previous step), run Selenium.
-
-    $ cd path/to/news-summariser/
-    $ npm run start-selenium
-
-In a *third* terminal (with your app and Selenium still running from the previous steps), run your feature tests.
-
-    $ cd path/to/news-summariser/
-    $ npm run test-features
-
-## Run your unit tests
-
-    $ cd path/to/news-summariser/
-    $ npm run test-units
-
-## Run and view your app
-
-    $ cd path/to/news-summariser/
-    $ npm run start-app
-
-If you see "Error: listen EADDRINUSE 0.0.0.0:8080" when you run `npm run start-app`, you may have the app already running in a separate tab.
-
-Go to [http://localhost:8080](http://localhost:8080) in your web browser.  You should see "Hello, world".
+```
+As a busy politician
+I can see whizzy animations in the app
+To make my news reading more fun
+```
