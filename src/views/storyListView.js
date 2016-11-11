@@ -6,6 +6,7 @@ function StoryListView(storyList) {
 
   StoryListView.prototype.renderHTML = function() {
     var stories = this._storyArray.map(function(story) {
+
       return '<li>' + story.returnText() + "</li>";
     }).join("");
       return "<ul>" + stories + "</ul>";
